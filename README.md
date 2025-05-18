@@ -1,43 +1,47 @@
-🏨 Hotel Booking System (Qt C++)
-A modern desktop application for managing hotel bookings, built with C++ and Qt.
-It features two main user roles: Employee and Guest, with integrated support for Access database via ODBC.
+# 🏨 Hotel Booking System (Qt C++)
 
-✨ Features
-👨‍💼 Employee Interface
+A modern **desktop application** for managing hotel bookings, developed using **C++ and Qt**.  
+It features two main roles: **Employee** and **Guest**, with full integration to a **Microsoft Access** database using **ODBC**.
 
-View and manage pending bookings
+---
 
-Approve or reject booking requests
+## ✨ Features
 
-Connects to PendingBookings table in Access DB
+### 👨‍💼 Employee Interface
+- View pending bookings from the database.
+- Approve or reject booking requests.
+- Connects to the `PendingBookings` table in the Access DB.
 
-🙋‍♂️ Guest Interface
+### 🙋‍♂️ Guest Interface
+- Submit booking requests.
+- Track booking status.
+- Rate service after checkout.
 
-Browse and submit booking requests
+### 🗂️ Database Integration
+- Uses `.accdb` (Access) database file.
+- SQL queries performed through ODBC connection.
 
-View personal booking status
+### 🎨 Modern UI with Qt
+- UI built using Qt Designer (`.ui` files).
+- Separated windows for each function (`EmployeeWindow`, `GuestWindow`, etc.).
 
-Rate the service after checkout
+---
 
-🗂️ Database Integration
+## 🛠️ Tech Stack
 
-Microsoft Access .accdb database
+- **C++17**
+- **Qt 6** (Widgets, SQL)
+- **Microsoft Access** via **ODBC**
+- **CMake** build system
+- **MinGW** on Windows
 
-ODBC driver used for seamless SQL operations
+---
 
-🎨 Modern UI with Qt Designer
+## 🚀 Getting Started
 
-Custom UIs using .ui files
-
-Organized into modular windows (EmployeeWindow, GuestWindow, etc.)
-
-🛠️ Tech Stack
-C++17
-
-Qt 6 (Widgets, SQL)
-
-Microsoft Access (via ODBC)
-
-CMake for build system
-
-MinGW on Windows
+```bash
+git clone https://github.com/Ubb-a/DefHotel.git
+cd your-repo-name
+mkdir build && cd build
+cmake ..
+cmake --build .
